@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".ImplisitIntentActivity">
         </activity>
+        <activity android:name=".IntentBundleActivity">
+        </activity>
     </application>
 
 </manifest>
