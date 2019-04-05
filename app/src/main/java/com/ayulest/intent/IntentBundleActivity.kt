@@ -10,17 +10,20 @@ class IntentBundleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intent_bundle)
 
-        val nama = intent.getStringExtra("NAMA")
-        val npm = intent.getStringExtra("NPM")
-        val sekolah = intent.getStringExtra("SEKOLAH")
-        val foto_url = intent.getStringExtra("FOTO_URL")
-        val foto = intent.getStringExtra("FOTO")
-        val jk = intent.getStringExtra("JK")
+        val nama = intent.getStringExtra("Nama")
+        val ttl = intent.getStringExtra("TTL")
+        val alamat = intent.getStringExtra("Alamat")
+        val hobby = intent.getStringExtra(" Hobby")
+        val agama = intent.getStringExtra("Agama")
+        val email = intent.getStringExtra("Email")
 
-        tvNama.text = nama
-        tvNpm.text = npm
-        tvSekolah.text = sekolah
-        tvJk.text = jk
+        tvnama.text = nama
+        tvttl.text = ttl
+        tvalamat.text = alamat
+        tvhobby.text = hobby
+        tvagama.text = agama
+        tvemail.text = email
+
 
 
     }
