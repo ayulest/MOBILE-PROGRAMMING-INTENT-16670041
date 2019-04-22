@@ -7,12 +7,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".ImplisitIntentActivity">
+
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:id="@+id/iv"
             android:src="@android:drawable/stat_notify_error"/>
-
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
