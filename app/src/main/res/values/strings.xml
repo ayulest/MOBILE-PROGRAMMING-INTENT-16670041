@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Intent</string>
+        <string name="edittext_uri">http://developer.android.com</string>
+        <string name="button_uri">Open Website</string>
+        <string name="edittext_loc">Semarang, Indonesia</string>
+        <string name="button_loc">Open Location</string>
+        <string name="edittext_share">Jangan Lupa Belajar Yaa!</string>
+        <string name="button_share">Share This Text</string>
+        <string name="button_share1">Share This Image</string>
 </resources>

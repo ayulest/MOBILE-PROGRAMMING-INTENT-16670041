@@ -8,6 +8,16 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="170dp"
+              android:layout_marginBottom="20dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginLeft="10dp"
+              android:text="SELAMAT DATANG DI TUGAS INTENT \n By Ayu Lestari"
+              android:textAlignment="center"
+              android:textColor="@color/fav"
+              android:textSize="20dp"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,7 +28,7 @@
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CONTACT"
+            android:text="INFORMATION"
             android:textColor="@android:color/holo_purple"
             android:textSize="20dp"
             android:id="@+id/btnPindahAcrivityExplisit"/>

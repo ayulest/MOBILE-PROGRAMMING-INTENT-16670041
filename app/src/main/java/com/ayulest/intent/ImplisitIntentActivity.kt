@@ -6,7 +6,10 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
+import android.support.v4.app.ShareCompat
 import android.support.v7.app.AppCompatActivity
+import android.view.View
+import kotlinx.android.synthetic.main.activity_explisit_intent.*
 import kotlinx.android.synthetic.main.activity_implisit_intent.*
 
 
@@ -38,5 +41,15 @@ class ImplisitIntentActivity : AppCompatActivity() {
           val imageBitmap = data?.extras?.get("data") as Bitmap
           iv.setImageBitmap(imageBitmap)
       }
+    }
+    fun shareImage(view: View) {
+        val txt = share_image_button.getText().toString()
+        val mimeType = "text/plain"
+        ShareCompat.IntentBuilder
+            .from(this)
+            .setType(mimeType)
+            .setChooserTitle("Share this image with: ")
+            .setText(txt)
+            .startChooser()
     }
 }
