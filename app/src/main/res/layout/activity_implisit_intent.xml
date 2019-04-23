@@ -22,14 +22,5 @@
             android:background="@color/colorAccent"
             android:textColor="@android:color/white"
             android:textSize="20dp"/>
-    <Button
-            android:id="@+id/share_image_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
-            android:layout_marginRight="120dp"
-            android:layout_marginBottom="24dp"
-            android:onClick="shareImage"
-            android:text="@string/button_share1" />
 
 </LinearLayout>

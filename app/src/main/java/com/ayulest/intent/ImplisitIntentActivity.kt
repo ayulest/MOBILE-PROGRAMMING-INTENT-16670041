@@ -42,14 +42,4 @@ class ImplisitIntentActivity : AppCompatActivity() {
           iv.setImageBitmap(imageBitmap)
       }
     }
-    fun shareImage(view: View) {
-        val txt = share_image_button.getText().toString()
-        val mimeType = "text/plain"
-        ShareCompat.IntentBuilder
-            .from(this)
-            .setType(mimeType)
-            .setChooserTitle("Share this image with: ")
-            .setText(txt)
-            .startChooser()
-    }
 }
